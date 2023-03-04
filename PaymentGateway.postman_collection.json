@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "e6ec0c02-122a-4b7e-85e8-c36ae392372c",
+		"name": "PaymentGateway",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Get Token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var data = pm.response.text();\r",
+									"pm.globals.set(\"Token\", data);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/Token",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"Token"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Payments",
+			"item": [
+				{
+					"name": "Process Payments",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{Token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"cardNumber\": \"5279988405398834\",\r\n  \"expiryMonth\": 1,\r\n  \"expiryYear\": 2020,\r\n  \"cardHolderName\": \"Jane\",\r\n  \"cvv\": \"123\",\r\n  \"merchantId\": \"MMD\",\r\n  \"customerName\": \"John Doe\",\r\n  \"amount\": 10,\r\n  \"currency\": \"GBP\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/Payments/Process",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"Payments",
+								"Process"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Payment Details by Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{Token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/Payments/fed43e0f-8734-449f-88c4-a262f3ccb737",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"Payments",
+								"fed43e0f-8734-449f-88c4-a262f3ccb737"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

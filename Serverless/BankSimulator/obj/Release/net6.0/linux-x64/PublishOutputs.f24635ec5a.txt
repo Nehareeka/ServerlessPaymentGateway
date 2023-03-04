@@ -1,0 +1,10 @@
+D:\Code\.NET\.NETCore\Serverless\BankSimulator\BankSimulator\bin\Release\net6.0\publish\BankSimulator.deps.json
+D:\Code\.NET\.NETCore\Serverless\BankSimulator\BankSimulator\bin\Release\net6.0\publish\BankSimulator.runtimeconfig.json
+D:\Code\.NET\.NETCore\Serverless\BankSimulator\BankSimulator\bin\Release\net6.0\publish\BankSimulator.pdb
+D:\Code\.NET\.NETCore\Serverless\BankSimulator\BankSimulator\bin\Release\net6.0\publish\Amazon.Lambda.APIGatewayEvents.dll
+D:\Code\.NET\.NETCore\Serverless\BankSimulator\BankSimulator\bin\Release\net6.0\publish\Amazon.Lambda.Core.dll
+D:\Code\.NET\.NETCore\Serverless\BankSimulator\BankSimulator\bin\Release\net6.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+D:\Code\.NET\.NETCore\Serverless\BankSimulator\BankSimulator\bin\Release\net6.0\publish\AWSSDK.Core.dll
+D:\Code\.NET\.NETCore\Serverless\BankSimulator\BankSimulator\bin\Release\net6.0\publish\AWSSDK.DynamoDBv2.dll
+D:\Code\.NET\.NETCore\Serverless\BankSimulator\BankSimulator\bin\Release\net6.0\publish\Newtonsoft.Json.dll
+D:\Code\.NET\.NETCore\Serverless\BankSimulator\BankSimulator\bin\Release\net6.0\publish\BankSimulator.dll

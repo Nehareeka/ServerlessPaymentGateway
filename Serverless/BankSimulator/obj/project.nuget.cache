@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "2Uo2wBt24enxOzOCCkkCM/phMb5urJN070KUq+RfxMSVjMXT6acH6r+bGMzd07Y8Cc+4Gr6AK79CERLhGyUOzg==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\.NET\\.NETCore\\Checkout.com\\ServerlessPaymentGateway\\Serverless\\BankSimulator\\BankSimulator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nehar\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.6.0\\amazon.lambda.apigatewayevents.2.6.0.nupkg.sha512",
+    "C:\\Users\\nehar\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\nehar\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.0\\amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512",
+    "C:\\Users\\nehar\\.nuget\\packages\\awssdk.core\\3.7.105.7\\awssdk.core.3.7.105.7.nupkg.sha512",
+    "C:\\Users\\nehar\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.101.49\\awssdk.dynamodbv2.3.7.101.49.nupkg.sha512",
+    "C:\\Users\\nehar\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\nehar\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.1\\microsoft.netcore.app.crossgen2.win-x64.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

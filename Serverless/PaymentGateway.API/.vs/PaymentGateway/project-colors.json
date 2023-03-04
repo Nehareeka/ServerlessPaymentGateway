@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "547539ba-c835-4029-8fad-ee73732009c1": {
+      "ProjectGuid": "547539ba-c835-4029-8fad-ee73732009c1",
+      "DisplayName": "PaymentGateway.API",
+      "ColorIndex": 0
+    },
+    "13e4d294-afa8-46d7-b49e-00682beb5624": {
+      "ProjectGuid": "13e4d294-afa8-46d7-b49e-00682beb5624",
+      "DisplayName": "PaymentGateway.BankSimulator",
+      "ColorIndex": 1
+    },
+    "1e0d4fa9-004e-4869-a56b-db7727ad8772": {
+      "ProjectGuid": "1e0d4fa9-004e-4869-a56b-db7727ad8772",
+      "DisplayName": "PaymentGateway.API.Tests",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "0d995aeb-47b1-43cb-8af4-eecaf9d4ed6f": {
+      "ProjectGuid": "0d995aeb-47b1-43cb-8af4-eecaf9d4ed6f",
+      "DisplayName": "PaymentGateway.IdentityServer",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
