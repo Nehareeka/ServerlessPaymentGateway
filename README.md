@@ -20,7 +20,7 @@ Data is stored on the Bank Simulator Lambda Function in DynamoDB (unsure of the 
 
 #### Source: https://www.checkout.com/docs/testing/response-code-testing
 
-### Invalid Cards stored in-memory database
+### Invalid Cards stored in DynamoDB
 
 | Card Number | Status |   
 | :-------------:| :----------:|
@@ -34,7 +34,6 @@ Data is stored on the Bank Simulator Lambda Function in DynamoDB (unsure of the 
 
 <Any 16 digit card> : Paid 
 
-Bank Simulator processes payments and submits
 
 #### Response Codes
 
